@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Active Tab URL Sender",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
